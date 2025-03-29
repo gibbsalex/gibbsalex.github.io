@@ -3,9 +3,10 @@ layout: post
 title: "Kalman Filter Glance"
 date: 2025-03-28
 categories: Control CATEGORY-2
+usemathjax: true
 ---
 
-New change 10:22
+New change 10:35
 
 # Kalman Filter
 
