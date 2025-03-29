@@ -5,6 +5,8 @@ date: 2025-03-28
 categories: Control CATEGORY-2
 ---
 
+New change 10:22
+
 # Kalman Filter
 
 The Kalman filter is a state-estimation technique that fuses data from multiple sensors. The KF requires knowledge of the model, and the covariances of the sensors. It assumes white noise, and guassian estimations.
