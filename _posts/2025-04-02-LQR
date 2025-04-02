@@ -1,0 +1,74 @@
+---
+layout: post
+title: "LQR: Linear Quadratic Regulator"
+date: 2025-04-02
+categories: Control CATEGORY-2
+usemathjax: true
+---
+
+LQR: Linear Quadratic Regulator
+
+# Main Idea:
+Solves continuous state-space optimal control problems using only linear algebra operations
+
+# Basis
+Dynamics:
+$$
+x_{t+1}= A x_{t} + B u_t
+$$
+Quadratic Cost Function:
+$$ g(x_t, u_t) = x_t^T Q x_t + u_t^T R u_t$$
+where:
+$$
+Q \succ 0 \\
+R \succ 0
+$$
+
+the classic Value Iteration step from RL:
+$$J_{i+1}(s) = \min_u g(s,u) + \sum_{s'}P(s'|s,u)J_i(s')$$
+the LQR translation:
+$$ J_{i+1}(x) = \min_u x^T Q x + u^T R u + J_i(Ax + Bu)$$
+
+# Recursive Value Iteration
+Solve for a static optimal gain $u = K x$. Great for a stabilization problem
+
+initialize:
+$$ 
+J_0(x) = x^T P_0 x \\
+x_{t+1} = A x_t + B u_t \\
+g(x, u) = u^T R u + x^T Q x
+$$
+step forward:
+$$
+K_1 = -(R + B^T P_0 B)^{-1} B^T P_0 A \\
+P_1 = Q + K_1^T R K_1 + (A + B K_1)^T P_0 (A + B K_1) \\
+\uparrow \text{  algebraic riccati eqns}\\
+\\
+J_1(x) = x^T P_1 x 
+$$
+repeat:
+$$
+K_i = -(R + B^T P_{i-1} B)^{-1} B^T P_{i-1} A \\
+P_1 = Q + K_i^T R K_i + (A + B K_i)^T P_{i-1} (A + B K_i) \\
+$$
+the optimal policy for an i-step horizon is:
+$$
+\pi (x) = K_i x
+$$
+the cost-to-go function is:
+$$ J_i(x) = x^T P_i x $$
+
+# iLQR (iterative LQR)
+
+# DDP (Dynamic Programming)
+
+# Hazards
+1. High frequency control inputs may be generated
+
+# Connections
+1. Relation to Kalman Filtering
+2. Origins in Reinforcement Learning
+3. MPC(Model Predictive Controller)
+
+# References
+1. Pieter Abbel, UC Berkeley EECS, "Optimal Control for Linear Dynamical Systems and Quadratic Cost("LQR")"
