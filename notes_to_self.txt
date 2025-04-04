@@ -1,0 +1,16 @@
+Render Local Site:
+in cmd :  bundle exec jekyll serve
+chrome nav to : http://localhost:4000
+
+---
+General MathJax Docs: 
+https://docs.mathjax.org/en/latest/web/start.html#using-mathjax-from-a-content-delivery-network-cdn
+
+MathJax Examples:
+https://github.com/mathjax/MathJax-demos-web/tree/master
+
+---
+
+ipynb support with quarto
+https://quarto.org/docs/publishing/github-pages.html
+- example: https://georg.io/2013/12/03/Crank_Nicolson

@@ -1,2 +1,2 @@
 # gibbsalex.github.io
-my website of things
+"lossless compression is understanding"
