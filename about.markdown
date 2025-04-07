@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Seeking roles in Machatronics
-
 ## UCSD: Controls and Mechatronics, MS
 Sept. 2023 - December 2024
 
@@ -32,8 +30,16 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 ### Test Engineer
 Oct. 2021 - June 2023
 
-- Devices Team - Reliability Test Engineer (REL)
-- Xbox Team - Design Verification Test Engineer (DVT)
+#### Xbox Team - Design Verification Test Engineer (DVT)
+Validated new and existing controller designs.
+
+
+#### Devices Team - Reliability Test Engineer (REL)
+Worked on the Microsoft Laptop, Tablets, Headphones, HoloLens.
+Conducted device testing to evaluate device lifecycle. 
+Tested vibration, temperature humidity, water immersion, shock, impact testing.
+Investigated the use of a 6-axis robotic arm to automate the process of opening and closing the Surface Studio hinge.
+Captured and analyzed IMU data from a Field Test Engineer to investigate the feasibility of recreating the motion inside the lab.
 
 ## Strategic Robotics Systems
 ### Assembly Technician
