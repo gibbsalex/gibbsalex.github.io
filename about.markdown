@@ -4,12 +4,56 @@ title: About
 permalink: /about/
 ---
 
-This is the about page of my website
+Seeking roles in Machatronics
 
-UCSD: Controls and Mechatronics, MS
+## UCSD: Controls and Mechatronics, MS
+Sept. 2023 - December 2024
 
-Microsoft(Contract): 
-- Reliability Engineer
-- Design Verification Test Engineer
+Courses: Linear Systems, System Identification, Embeded Control and Robotics, Nonlinear Systems, Bioinspired Robotics, MAE Robotics, Nonlinear Control, Optimal Estimation, Robot Motion Planning, CSE Robotics
 
-UW: Mechanical Engineering, BS
+### Graduate Research Assistant - Flow Control and Coordinate Robotics Lab(Advisors: Prof. Thomas Bewley):
+
+- Vehicle Flight Dynamics and Control:
+- Design and implement flight control algorithms to stabilize a rocket-shaped drone. 
+- Actuators
+- Collect and record data from potentiometers to verify gimbal motor behavior.
+- Implement a laser range finder to determine vehicles vertical distance from ground.
+- Utilize onboard IMU data to determine vehicles attitude.
+- Design and implementation of 6 SISO Lead-Lag controllers for each degree of freedom.
+- Modeling improvement through identification of system delays.
+
+### CSE Robotics Class - ROS PID, Kalman Filter, SLAM:
+
+- Write the software stack to control a small mobile robot.
+- Build, and tune, a motion control node to implement PID controller to reach a global position and orientation. PID acts as a closed-loop feedback controller to close the distance between its current location and its desired location.
+- Build a Kalman Filter node to update the estimate of the current vehicle's belief in its state (orientation + position) 
+
+## Microsoft(Contract): 
+### Test Engineer
+Oct. 2021 - June 2023
+
+- Devices Team - Reliability Test Engineer (REL)
+- Xbox Team - Design Verification Test Engineer (DVT)
+
+## Strategic Robotics Systems
+### Assembly Technician
+May 2021 - Oct. 2021
+
+Follow work instructions to build assemblies for underwater unmanned vehicles(UUV). 
+
+Test subassemblies to verify quality of build. Deep water pressure testing of vehicle body in a pressure champer. Factory Acceptance Testing(FATs) - Full functional vehicle testing in Lake Washington.
+
+## UW: Mechanical Engineering, BS
+
+### Undergraduate Research Assistant - Amplified Movement and Performance(AMP) Lab
+May 2019 - June 2021
+
+- Designed novel four-bar linkages to investigate the motion path of prosthetic ankle joints.
+- Used MATLAB to track the movement of the instantaneous center of rotation of a four-bar linkage through rotation
+
+### Design Team - Society for Advanced Rocket Propulsion(SARP, UW Rocketry)
+Sept. 2018 - Sept. 2019
+- Designed, in SolidWorks, the Actuated Valve that releases the liquid propellant to mix with the solid fuel.
+- Investigated throttle control for tapering power to a cruising speed after liftoff 
+
+
