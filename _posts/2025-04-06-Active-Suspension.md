@@ -42,8 +42,12 @@ Geometric topology and functinos
 ## Section 3 - Control
 
 Stabilize chassis pitch and roll
+1. use PID to control multiple objectives
+2. Sliding mode controller to keep the car in a desired subset of sytems
+3. Backstepping Control
 
 improve ride comfort through chassis vibration attentuation
+- Skyhook, groundhook, LQR/LQG,Hinf, mu synthesis, model predictive control, sliding mode control, backstepping
 
 comunicate with other car modules
 
