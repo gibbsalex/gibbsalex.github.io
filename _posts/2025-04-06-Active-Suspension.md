@@ -63,5 +63,8 @@ Independent air suspension.
 Automatic ride-height leveling.
 Hydraulic cross-linked suspension
 
+Ride quality is determined by:
+variable-rate springs, variable-rate dampers
+
 # Reference
 1. Advances in Active Suspension Systems for Road Vehicles (Min Yu, Simous A. Evangelou, Daniele Dini), ScienceDirect

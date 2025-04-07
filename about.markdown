@@ -9,7 +9,8 @@ Sept. 2023 - December 2024
 
 Courses: Linear Systems, System Identification, Embeded Control and Robotics, Nonlinear Systems, Bioinspired Robotics, MAE Robotics, Nonlinear Control, Optimal Estimation, Robot Motion Planning, CSE Robotics
 
-### Graduate Research Assistant - Flow Control and Coordinate Robotics Lab(Advisors: Prof. Thomas Bewley):
+### Graduate Research Assistant - SISO Thrust Vector Control
+#### Flow Control and Coordinate Robotics Lab(Advisors: Prof. Thomas Bewley)
 
 - Vehicle Flight Dynamics and Control:
 - Design and implement flight control algorithms to stabilize a rocket-shaped drone. 
