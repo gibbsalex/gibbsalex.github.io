@@ -70,3 +70,5 @@ variable-rate springs, variable-rate dampers
 1. Advances in Active Suspension Systems for Road Vehicles (Min Yu, Simous A. Evangelou, Daniele Dini), ScienceDirect
 
 2. Brian Douglas, Analyze the QuaterCar Model of a Car and tune a robust controller: https://www.mathworks.com/help/robust/gs/active-suspension-control-design.html
+
+3. S. Hariharen, "Variable Spring Rate Adaptive Suspension System": https://www.ijser.in/archives/v5i5/IJSER151387.pdf

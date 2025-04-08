@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Unofficial investigations into things I am curious about
