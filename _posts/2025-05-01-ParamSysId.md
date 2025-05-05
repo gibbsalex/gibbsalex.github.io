@@ -21,6 +21,7 @@ usemathjax: true
 # Definitions
 1. Power
 2. Spectrum 
+3. Infinite Impulse Response Filter
 
 # Least Squares
 Approximates the solution for x in A x = b.
@@ -106,6 +107,46 @@ Linear Regression Model:
 $$
 x(k) = \Phi(k)^T \theta + \epsilon(k, \theta)
 $$
+
+# IIR vs FIR
+System must lie in the set of models
+
+# IV method L8
+Uses an instrument to assist the regressor in finding parameters of the system that are less correlated with the noise signal.
+
+The instrument is correlated with the regressor, but uncorrelated with the equation noise.
+
+Does not find the exact optimal parameters
+
+# Constrained Least Squares (CLS) L9
+When a linear constraint is present.
+
+Add a Lagrange Variable to minimize the new overall cost function
+
+# LS and FreqDom ID L10
+Find $G(\omega)$ as a division of output to input data.
+
+Use LS to curve fit a line to the bode plot
+
+# Realization Algorithm L11
+Determine the state space model A, B, C, D from impulse response coefficients $g_0 (k)$
+
+### methods to estimating $g_0 (k)$
+1. input white noise, estimate $R_{yu}(\tau)$, then $g(k) = R_{yu}(k)$
+2. input white noise, estimate $\hat\theta_{LS}$ for a FIR model, then $\hat{g}(k) = \hat{\theta}_{LS}(k)$
+3. Estimate $\hat{G}_{spa}(\omega)$ via SPA, then $\hat{g}(k) = \mathcal{F}^{-1} \{ \hat{G}_{SPA} (\omega) \}$
+
+Ho-Kalman Algorithm
+
+# subspace algorithm: L12
+General I/O data - Hankle - SVD - convex optimization
+
+# Prediction Error Modeling L13
+Estimate the parameter value by minimizing the Prediction Error.
+
+One step ahead prediction
+
+Example: Auto Regressive(AR) noise filter, or Moving Average(MA) noise filter, or Auto Regressive Moving Average(ARMA) noise filter
 
 # Spectral Analysis
 - Frequency Domain Analysis
