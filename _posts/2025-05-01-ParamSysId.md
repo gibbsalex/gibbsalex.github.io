@@ -12,6 +12,13 @@ usemathjax: true
 3. Data Collection
 4. Validation
 
+Model Estimation and Validation Iterative Process
+1. Data(u(t), y(t))
+2. Postulate Model
+3. Optimization to find theta parameters
+4. Validation
+5. Repeat or use parameters
+
 # Methods for Parameter Estimation
 1. Prediction Error Modeling
 2. Correlation Analysis
@@ -108,6 +115,14 @@ $$
 x(k) = \Phi(k)^T \theta + \epsilon(k, \theta)
 $$
 
+# Spectral Analysis
+- Frequency Domain Analysis
+- Frequency Response Estimation
+- Noise Spectrum Estimation
+- Coherence Estimation
+
+Frequency Domain immediately tells us quantitative behavior(order and delays) of TF G(s) when looking at the bode plot
+
 # IIR vs FIR
 System must lie in the set of models
 
@@ -148,10 +163,27 @@ One step ahead prediction
 
 Example: Auto Regressive(AR) noise filter, or Moving Average(MA) noise filter, or Auto Regressive Moving Average(ARMA) noise filter
 
-# Spectral Analysis
-- Frequency Domain Analysis
-- Frequency Response Estimation
-- Noise Spectrum Estimation
-- Coherence Estimation
+# Convergence and Consistency L14
+Convergence depends on signal properties
 
-Frequency Domain immediately tells us quantitative behavior(order and delays) of TF G(s) when looking at the bode plot
+Consistency depends on chosen model structure
+
+# Parameter Estimation and Convergence L15
+
+Linear Regression Model
+
+How does the variance of the model change with more error
+
+Gradient of the prediction error or output predictor
+
+# Approximate Parameter Estimation L16
+
+How do we know when our estimation is good enough?
+
+# Iterative Methods to PEM L17
+
+Step through the gradient to minimize the prediction error
+
+Direction: Follow the gradient of steepest descent
+
+Engine: Newton-Raphson optimization to step forward
