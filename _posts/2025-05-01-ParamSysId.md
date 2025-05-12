@@ -126,6 +126,20 @@ Frequency Domain immediately tells us quantitative behavior(order and delays) of
 # IIR vs FIR
 System must lie in the set of models
 
+# Spectral Analysis: (ETFE vs SPA) L6
+
+ETFE does not equal SPA
+
+ETFE * a coveriance window = SPA
+
+More data does not help the ETFE by itself. Soln: Smooth the periodogram. Smoothing not averaging
+
+Options for finding the best W(w): Fourier transform
+
+Choices of covariance windows: Rectangular, Bartlett, Hamming, Welch
+
+Use the coherence spectrum as an inducation of noise. "Kinda like signal to noise ratio"
+
 # IV method L8
 Uses an instrument to assist the regressor in finding parameters of the system that are less correlated with the noise signal.
 
