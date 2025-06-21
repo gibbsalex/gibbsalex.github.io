@@ -55,13 +55,51 @@ Critical characteristics: FOV size,magnitude of stars, star tracker internal pro
 Drawback: Affected by spacecraft angular rate, external light sources, and glare. Must be carful not to contaminate the optics from exhaust plumes.
 
 Bad with angular velocities. Expensive solutions are only good up to 3.0 deg/s
+
 ### Magnetometers
+
+Estimates 2-axis attitude.
+
+Measures the local magnetic field.
+
+Requires a well modeled magnetic field model to reference agains the measured magnetic field.
+
+This in combination with sensors like the Sun Senor, can help estimate the 3-axis attitude.
+
+Requires careful placement on the spacecraft.
+
+May require on-orbit recalibration.
+
 
 ### Sunsensors
 
+Used for attitude estimation.
+
+These sensors measure the direction of the sun in a spacecraft body frame.
+
+To obtain a three-axis attitude estimate, one additional independent source of attitude information is required.
+
+Good for fault detection. Be aware of this sensor getting confused by glint from the spacecraft or the Moon.
+
+Types: Cosine detectors, quadrant detectors, digital sun sensor, sun camera.
+
 ### Horizon Sensors
 
+Estimates attitude.
+
+Types: infrared horizon crossing indicators, thermopile sensors.
+
 ### Inertial Sensing
+
+Gyros for angular change.
+
+Accelerometers for measuring velocity change.
+
+Configurations: single, IRU, IMU.
+
+MEMS are small but are susceptible to radiation and single event upsets.
+
+Consider dynamics range, output resolution, bias, sampling rate. Bias drift can be externally calculated and adjusted for in the attitude determination.
 
 ## Resources:
 1. https://www.nasa.gov/smallsat-institute/sst-soa/guidance-navigation-and-control/#5.2.2
