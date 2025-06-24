@@ -90,6 +90,17 @@ Follow this procedure:
 1. Take a guess at the new state $ x_{t} $.
 2.  Use the optimal gain $K$, to update the guess with sensor measurements $y_{t}$.
 
+# kalmanfilter.net
+
+Find a weighted average of sensor measurements. Change the weights each data sample according to the accuracy of the sensor.
+
+## Procedure
+1. "estimate the current state based on the measurement and prior prediction"
+
+2. "predict the next state based on the current state estimate using the Dynamic Model" 
+
+The Kalman Gain is the factor that is multiplied to the error between the measurement and the predicted value of the current state("innovation"). This gain adapts optimally according to dynamic model.
+
 
 
 # Challenges:
