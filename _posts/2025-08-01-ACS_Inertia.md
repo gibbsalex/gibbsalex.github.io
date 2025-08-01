@@ -32,6 +32,7 @@ Setup:
 - A cube(Payload) is attached tangent to the curved surface of the cylinder(OTV).
 - Vary the position of the payload along the length of the cylinder.
 - Keep the model of the OTV and the payload constant.
+- Compare the same controller in all setups, PD controller (Kp = 20, Kd = 400)
 
 Important Equations for Simulation:
 - Dynamics are described by the Euler Rotation Equations
