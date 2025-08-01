@@ -255,7 +255,7 @@ otv_payload_none.plot()
 
 
     
-![png](sim_2_files/sim_2_5_0.PNG)
+![png](/assets/img/sim_2_files/sim_2_5_0.PNG)
     
 
 
@@ -280,8 +280,7 @@ plt.show()
 
 
     
-![png](sim_2_files/sim_2_6_0.png)
-    
+![png](/assets/img/sim_2_files/sim_2_6_0.png)
 
 
 Data - recorded by eye
