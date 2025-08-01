@@ -16,6 +16,8 @@ In this project, I simulate how different payload configurations affect ACS perf
 
 A PD controller is applied to regulate the vehicle's roll angle, and its performance is evaluated through a step response from 0° to 30°. Key performance metrics such as rise time, overshoot, and settling time are computed to assess control effectiveness under varying inertia conditions.
 
+![diagram_png](/assets/img/sim_2_files/blue_ring_payload_draw.png)
+
 A list of simplifications used to complete this investigation: 
 - The inertia of the Blue Ring OTV was simplified to a cylinder.
 - The mass of the model for Blue Ring is assumed to be 2000kg, based on estimates of other OTV's.
@@ -255,7 +257,7 @@ otv_payload_none.plot()
 
 
     
-![png](/assets/img/sim_2_files/sim_2_5_0.PNG)
+![quick_check_png](/assets/img/sim_2_files/sim_2_5_0.png)
     
 
 
@@ -280,7 +282,7 @@ plt.show()
 
 
     
-![png](/assets/img/sim_2_files/sim_2_6_0.png)
+![all_png](/assets/img/sim_2_files/sim_2_6_0.png)
 
 
 Data - recorded by eye
