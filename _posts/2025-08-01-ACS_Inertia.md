@@ -297,11 +297,11 @@ Payload Mounted 5m from Center = 6200 - 1300 / 100, .225 / .5 *100, > 300 sec
 
 ## Results
 
-Test                           = rise-time | overshoot | settling time
-Without Payload                = 33 sec    |    20%    |  200 sec
-Payload Mounted at Center      = 37.5 sec  |    30%    |  300 sec
-Payload Mounted 1m from Center = 37.5 sec  |    30%    |  300 sec
-Payload Mounted 5m from Center = 49 sec    |    45%    | >300 sec
+Test                           | rise-time | overshoot | settling time
+Without Payload                | 33 sec    |    20%    |  200 sec
+Payload Mounted at Center      | 37.5 sec  |    30%    |  300 sec
+Payload Mounted 1m from Center | 37.5 sec  |    30%    |  300 sec
+Payload Mounted 5m from Center | 49 sec    |    45%    | >300 sec
 
 Observations:
 As the payload is mounted farther from the center of the OTV, controller performance degrades. Specifically, the rise time increases, overshoot becomes more pronounced, and the settling time grows longer. The most significant decline in performance occurs when the payload is placed 5 meters from the center, indicating a substantial increase in the system’s angular moment of inertia.
