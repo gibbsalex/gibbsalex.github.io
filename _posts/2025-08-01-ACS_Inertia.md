@@ -310,7 +310,7 @@ As the payload is mounted farther from the center of the OTV, controller perform
 
 Interestingly, the controller performance shows minimal difference between the payload mounted at the center and at a 1-meter offset. This suggests that for a payload of this mass, small displacements from the principal axis have a negligible impact on inertia. This observation aligns with the structure of the Parallel Axis Theorem, where the offset contribution scales with the square of the distance (d^2), meaning small distances contribute very little to the total inertia.
 
-## Conculsion
+## Conclusion
 The simulation results confirm the original hypothesis: as the payload is mounted farther from the principal axis of the orbital transfer vehicle (OTV), the spacecraft’s moment of inertia increases, leading to degraded control performance. Specifically, the PD controller exhibited slower rise time, higher overshoot, and longer settling time under these conditions.
 
 This highlights an important consideration for GNC engineers — the position of docked payloads significantly affects attitude dynamics, and control algorithms must account for these changes in real-time. If I were tasked with designing a flight-ready ACS controller, I would explore a gain-scheduling strategy. This well-established technique allows for predefined controller gains to adapt to different inertial configurations during mission phases such as payload docking.
