@@ -255,7 +255,7 @@ otv_payload_none.plot()
 
 
     
-![png](sim_2_files/sim_2_5_0.png)
+![png](sim_2_files/sim_2_5_0.PNG)
     
 
 
