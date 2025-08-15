@@ -68,10 +68,11 @@ i.e. the cutoff frequency
 
 Laplace ->
 $$
-H(s) = \frac{ \omega }{ s + \omega }
+H(s) = \frac{ \omega }{ s + \omega }\\
 $$
 
 Difference Equation:
+
 $$
 V_n = v_{out} = y_n\\
 
@@ -194,9 +195,9 @@ plt.show()
 
 ### Observations
 Increasing either the resistance or capacitance in the circuit lowers the cutoff frequency. This has several noticeable effects on the filter's behavior: 
--- Narrower passband: The range of frequencies that can pass through the filter without significant attenuation is reduced. Filters out more high-frequency signals
--- Greater attenuation of higher frequencies: Signals above the new, lower cutoff frequency are filtered out more strongly.
--- Slight effect on low frequencies: While the filter primarily targets higher frequencies, the overall amplitude of the output signal can decrease slightly due to the increased impedance.
+- Narrower passband: The range of frequencies that can pass through the filter without significant attenuation is reduced. Filters out more high-frequency signals
+- Greater attenuation of higher frequencies: Signals above the new, lower cutoff frequency are filtered out more strongly.
+- Slight effect on low frequencies: While the filter primarily targets higher frequencies, the overall amplitude of the output signal can decrease slightly due to the increased impedance.
 
 From the transfer function perspective, the output is inversely related to the product of
 R and C. In other words, increasing either component reduces the overall response of the circuit at higher frequencies. Each component contributes proportionally and equally to this effect, emphasizing the role of the RC time constant in shaping the filter’s behavior.
