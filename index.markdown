@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Unofficial investigations into things I am curious about
+Unofficial investigations into things that I am curious about
