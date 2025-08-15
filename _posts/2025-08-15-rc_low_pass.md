@@ -13,7 +13,7 @@ $$
 H(s) = \frac{1}{1+s RC}
 $$
 
-#### Setup for a Mass-Spring-Damper | Mechanical Impedance
+### Setup for a Mass-Spring-Damper | Mechanical Impedance
 
 Depending on which output we measure, a mass–spring–damper system can behave like a low-pass filter in different ways.
 
@@ -30,7 +30,7 @@ The damper responds weakly at low frequencies because the change in velocity is 
 
 In this way, the series damper acts as a high-frequency isolator, creating a low-pass effect for the mass’s velocity or displacement.
 
-#### Derivation using an RC circuit | Electrical Impedance
+### Derivation using an RC circuit | Electrical Impedance
 
 $$
  V_{in} ───R────── V_{out}\\
