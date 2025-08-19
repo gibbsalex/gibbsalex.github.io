@@ -14,6 +14,8 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 
 ![png](/assets/img/about_me_files/MEandVLcropped.png)
 
+<img src="/assets/img/about_me_files/MEandVLcropped.png" alt="me_vl" width="600">
+
 - Vehicle Flight Dynamics and Control.
 - Design and implement flight control algorithms to stabilize a rocket-shaped drone. 
 - Thrust vector control using a servo motor actuated gimbal.
@@ -26,7 +28,10 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 ### CSE Robotics Class — ROS, PID, Kalman Filter, SLAM:
 
 ![png](/assets/img/about_me_files/robot_ob_avoid_crop.png)
-<img src="/assets/img/about_me_files/robot_ob_avoid_crop.png" alt="Alt Text" width="300" height="200">
+<img src="/assets/img/about_me_files/robot_ob_avoid_crop.png" alt="Alt Text" width="600">
+
+height="200"
+
 ![png](/assets/img/about_me_files/robot_ob_avoid_crop.png | width = 100)
 
 - Write the software stack to control a small mobile robot.
@@ -50,6 +55,10 @@ Captured and analyzed IMU data from a Field Test Engineer to investigate the fea
 
 ## Strategic Robotics Systems
 ### Assembly Technician
+
+![png](/assets/img/about_me_files/SRS_thrusterPot.png)
+<img src="/assets/img/about_me_files/SRS_thrusterPot.png" alt="Alt Text" width="600">
+
 May 2021 - Oct. 2021
 
 Follow work instructions to build assemblies for underwater unmanned vehicles(UUV). 
@@ -59,12 +68,23 @@ Test subassemblies to verify quality of build. Deep water pressure testing of ve
 ## UW: Mechanical Engineering, BS
 
 ### Undergraduate Research Assistant — Amplified Movement and Performance(AMP) Lab
+
+![png](/assets/img/about_me_files/links_AMPlab_plots.png)
+<img src="/assets/img/about_me_files/links_AMPlab_plots.png" alt="Alt Text" width="600">
+
+
 May 2019 - June 2021
 
 - Designed novel four-bar linkages to investigate the motion path of prosthetic ankle joints.
 - Used MATLAB to track the movement of the instantaneous center of rotation of a four-bar linkage through rotation
 
 ### Design Team — Society for Advanced Rocket Propulsion(SARP, UW Rocketry)
+
+![png](/assets/img/about_me_files/SARP_AV.png)
+<img src="/assets/img/about_me_files/SARP_AV.png" alt="Alt Text" width="600">
+
+
+
 Sept. 2018 - Sept. 2019
 - Designed, in SolidWorks, the Actuated Valve that releases the liquid propellant to mix with the solid fuel.
 - Investigated throttle control for tapering power to a cruising speed after liftoff 
