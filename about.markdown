@@ -12,16 +12,21 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 ### Graduate Research Assistant - SISO Thrust Vector Control
 #### Flow Control and Coordinate Robotics Lab(Advisors: Prof. Thomas Bewley)
 
-- Vehicle Flight Dynamics and Control:
+![png](/assets/img/about_me_files/MEandVLcropped.png)
+
+- Vehicle Flight Dynamics and Control.
 - Design and implement flight control algorithms to stabilize a rocket-shaped drone. 
-- Actuators
+- Thrust vector control using a servo motor actuated gimbal.
 - Collect and record data from potentiometers to verify gimbal motor behavior.
 - Implement a laser range finder to determine vehicles vertical distance from ground.
-- Utilize onboard IMU data to determine vehicles attitude.
+- Utilize onboard IMU data to determine vehicle's attitude.
 - Design and implementation of 6 SISO Lead-Lag controllers for each degree of freedom.
 - Modeling improvement through identification of system delays.
 
-### CSE Robotics Class - ROS PID, Kalman Filter, SLAM:
+### CSE Robotics Class - ROS, PID, Kalman Filter, SLAM:
+
+![png](/assets/img/about_me_files/robot_ob_avoid_crop.png)
+<img src=/assets/img/about_me_files/robot_ob_avoid_crop.png alt="Alt Text" width="300" height="200">
 
 - Write the software stack to control a small mobile robot.
 - Build, and tune, a motion control node to implement PID controller to reach a global position and orientation. PID acts as a closed-loop feedback controller to close the distance between its current location and its desired location.
