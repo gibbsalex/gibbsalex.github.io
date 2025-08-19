@@ -12,9 +12,7 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 ### Graduate Research Assistant — SISO Thrust Vector Control
 #### Flow Control and Coordinate Robotics Lab (Advisors: Prof. Thomas Bewley)
 
-![png](/assets/img/about_me_files/MEandVLcropped.png)
-
-<img src="/assets/img/about_me_files/MEandVLcropped.png" alt="me_vl" width="600">
+<img src="/assets/img/about_me_files/MEandVLcropped.png" alt="me_vl" width="400">
 
 - Vehicle Flight Dynamics and Control.
 - Design and implement flight control algorithms to stabilize a rocket-shaped drone. 
@@ -27,12 +25,8 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 
 ### CSE Robotics Class — ROS, PID, Kalman Filter, SLAM:
 
-![png](/assets/img/about_me_files/robot_ob_avoid_crop.png)
-<img src="/assets/img/about_me_files/robot_ob_avoid_crop.png" alt="Alt Text" width="600">
+<img src="/assets/img/about_me_files/robot_ob_avoid_crop.png" alt="Alt Text" width="400">
 
-height="200"
-
-![png](/assets/img/about_me_files/robot_ob_avoid_crop.png | width = 100)
 
 - Write the software stack to control a small mobile robot.
 - Build, and tune, a motion control node to implement PID controller to reach a global position and orientation. PID acts as a closed-loop feedback controller to close the distance between its current location and its desired location.
@@ -56,8 +50,7 @@ Captured and analyzed IMU data from a Field Test Engineer to investigate the fea
 ## Strategic Robotics Systems
 ### Assembly Technician
 
-![png](/assets/img/about_me_files/SRS_thrusterPot.png)
-<img src="/assets/img/about_me_files/SRS_thrusterPot.png" alt="Alt Text" width="600">
+<img src="/assets/img/about_me_files/SRS_thrusterPot.png" alt="Alt Text" width="300">
 
 May 2021 - Oct. 2021
 
@@ -69,8 +62,7 @@ Test subassemblies to verify quality of build. Deep water pressure testing of ve
 
 ### Undergraduate Research Assistant — Amplified Movement and Performance(AMP) Lab
 
-![png](/assets/img/about_me_files/links_AMPlab_plots.png)
-<img src="/assets/img/about_me_files/links_AMPlab_plots.png" alt="Alt Text" width="600">
+<img src="/assets/img/about_me_files/links_AMPlab_plots.png" alt="Alt Text" width="300">
 
 
 May 2019 - June 2021
@@ -80,8 +72,7 @@ May 2019 - June 2021
 
 ### Design Team — Society for Advanced Rocket Propulsion(SARP, UW Rocketry)
 
-![png](/assets/img/about_me_files/SARP_AV.png)
-<img src="/assets/img/about_me_files/SARP_AV.png" alt="Alt Text" width="600">
+<img src="/assets/img/about_me_files/SARP_AV.png" alt="Alt Text" width="300">
 
 
 
