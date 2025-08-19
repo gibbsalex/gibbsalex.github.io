@@ -27,7 +27,6 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 
 <img src="/assets/img/about_me_files/robot_ob_avoid_crop.png" alt="Alt Text" width="400">
 
-
 - Write the software stack to control a small mobile robot.
 - Build, and tune, a motion control node to implement PID controller to reach a global position and orientation. PID acts as a closed-loop feedback controller to close the distance between its current location and its desired location.
 - Build a Kalman Filter node to update the estimate of the current vehicle's belief in its state (orientation + position) 
@@ -50,7 +49,7 @@ Captured and analyzed IMU data from a Field Test Engineer to investigate the fea
 ## Strategic Robotics Systems
 ### Assembly Technician
 
-<img src="/assets/img/about_me_files/SRS_thrusterPot.png" alt="Alt Text" width="300">
+<img src="/assets/img/about_me_files/SRS_thrusterPot.png" alt="Alt Text" width="250">
 
 May 2021 - Oct. 2021
 
@@ -62,8 +61,7 @@ Test subassemblies to verify quality of build. Deep water pressure testing of ve
 
 ### Undergraduate Research Assistant — Amplified Movement and Performance(AMP) Lab
 
-<img src="/assets/img/about_me_files/links_AMPlab_plots.png" alt="Alt Text" width="300">
-
+<img src="/assets/img/about_me_files/links_AMPlab_plots.png" alt="Alt Text" width="400">
 
 May 2019 - June 2021
 
@@ -72,11 +70,10 @@ May 2019 - June 2021
 
 ### Design Team — Society for Advanced Rocket Propulsion(SARP, UW Rocketry)
 
-<img src="/assets/img/about_me_files/SARP_AV.png" alt="Alt Text" width="300">
-
-
+<img src="/assets/img/about_me_files/SARP_AV.png" alt="Alt Text" width="400">
 
 Sept. 2018 - Sept. 2019
+
 - Designed, in SolidWorks, the Actuated Valve that releases the liquid propellant to mix with the solid fuel.
 - Investigated throttle control for tapering power to a cruising speed after liftoff 
 
