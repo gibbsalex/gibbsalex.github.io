@@ -30,6 +30,7 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 - Write the software stack to control a small mobile robot.
 - Build, and tune, a motion control node to implement PID controller to reach a global position and orientation. PID acts as a closed-loop feedback controller to close the distance between its current location and its desired location.
 - Build a Kalman Filter node to update the estimate of the current vehicle's belief in its state (orientation + position) 
+- Testing motion-control software with HIL
 
 ## Microsoft(Contract): 
 ### Test Engineer
@@ -38,11 +39,27 @@ Oct. 2021 - June 2023
 #### Xbox Team — Design Verification Test Engineer (DVT)
 Validated new and existing controller designs.
 
+Drop test — evalutate the structural response of the xbox controller during impact testing.
+
+Temperature/humidity testing — evaluate how button actuation or controller housing appearance is affected by environmental stress. Cycling extreme environmental conditions is mimmicks the lifecycle of a controller in an accelerated timeline.
+
+Metrology:
+Keyence 3D Laser Scanner
+Keyence Color Sensor
+Measured button force vs. displacement in a robotics arm test rig. 
+
+Test Fixture Building:
+3D printing
+
 
 #### Devices Team — Reliability Test Engineer (REL)
-Worked on the Microsoft Laptop, Tablets, Headphones, HoloLens.
+Laptop, Tablets, Headphones, Mixed Reality (IVAS, HoloLens).
+
 Conducted device testing to evaluate device lifecycle. 
 Tested vibration, temperature humidity, water immersion, shock, impact testing.
+
+Robotics Projects:
+
 Investigated the use of a 6-axis robotic arm to automate the process of opening and closing the Surface Studio hinge.
 Captured and analyzed IMU data from a Field Test Engineer to investigate the feasibility of recreating the motion inside the lab.
 
