@@ -23,6 +23,15 @@ Courses: Linear Systems, System Identification, Embeded Control and Robotics, No
 - Design and implementation of 6 SISO Lead-Lag controllers for each degree of freedom.
 - Modeling improvement through identification of system delays.
 
+### MAE Robotics Class — MATLAB, VREP, Kinematics, Euler Method
+
+- Developed software to control a robot with a mobile base featuring four Mecanum wheels and a 5R arm.
+- Generated the trajectory to construct a sequence of steps from start to finish, leveraging the screw motion representation of matrix transformations.
+- Created a kinematics simulator employing velocity kinematics and the Euler method to accurately predict the subsequent state of both the arm and chassis.
+- Implemented a PID controller to correct trajectory deviations, generating control signals for base and chassis actuators.
+- Simulated the complete motion of the robot’s configuration in a VREP simulator. 
+
+
 ### CSE Robotics Class — ROS, PID, Kalman Filter, SLAM:
 
 <img src="/assets/img/about_me_files/robot_ob_avoid_crop.png" alt="Alt Text" width="400">
